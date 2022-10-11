@@ -4,12 +4,17 @@ import {
   Route
 } from "react-router-dom"
 import './App.css';
-import Home from './Views/Home';
+import Header from "./components/Header/Header";
+import Home from './views/Home';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header/>
         <div>
           <Routes>
             <Route path='/' element={<Home />} />
