@@ -1,10 +1,11 @@
 import React from "react";
+import WideImageScreen from "../components/WideImageScreen/WideImageScreen.js";
 
 function Home() {
 
     return(
         <div>
-            <h1>home</h1>
+            <WideImageScreen/>
         </div>
     );
 }
