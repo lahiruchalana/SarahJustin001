@@ -1,8 +1,23 @@
 .image {
     max-width: fit-content;
-    max-height: 1000px;
+    max-height: 600px;
+    margin-top: 150px;
+    margin-left: 200px;
+    box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border-radius: 40px;
 }
 
 .background_image {
-    background-color: #181313;
+    margin-top: -100px;
+    background-color: #f68989;
+    padding-bottom: 250px;
+}
+
+.home_title {
+    text-align: left;
+    margin-left: 220px;
+    margin-top: -600px;
+    color: white;
+    font-size: 74px;
+    font-weight: 900;
 }
