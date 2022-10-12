@@ -5,6 +5,7 @@
     margin-left: 200px;
     box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border-radius: 40px;
+    z-index: 0;
 }
 
 .background_image {
@@ -17,7 +18,9 @@
     text-align: left;
     margin-left: 220px;
     margin-top: -600px;
+    margin-bottom: 600px;
     color: white;
     font-size: 74px;
     font-weight: 900;
+    z-index: 1;
 }
