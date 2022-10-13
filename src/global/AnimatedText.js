@@ -67,7 +67,7 @@ const AnimatedCharacters = (props) => {
                   key={index}
                 >
                   <motion.span
-                    style={{ display: "inline-block" }}
+                    style={{ display: "inline-block", fontSize: "68px", fontWeight: 900 }}
                     variants={item}
                   >
                     {element}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import AnimatedText from "../../global/AnimatedText"
 
 import './WideImageScreen.css';
@@ -33,32 +33,34 @@ function WideImageScreen() {
 
   return(
       <div>
-          <div  className="background_image" style={background_image}>
-            <motion.div animate={{ x, y, rotate }} onMouseOver={() => {
-              setX(60);
-              setY(-20);
-              setRotate(-2);
-              }} onMouseOut={() => {
-                setX(5);
-                setY(5);
-                setRotate(-0.5);
-              }}>  
-              <img className="image" src={require("../../assets/images/01.jpg")} />
-            </motion.div>
+        <AnimatePresence>
+            <div  className="background_image" style={background_image}>
+              <motion.div initial={{opacity: 0}} exit={{opacity: 0}} animate={{ x, y, rotate, opacity: 1 }} onMouseOver={() => {
+                setX(60);
+                setY(-20);
+                setRotate(-2);
+                }} onMouseOut={() => {
+                  setX(5);
+                  setY(5);
+                  setRotate(-0.5);
+                }}>  
+                <img className="image" src={require("../../assets/images/01.jpg")} />
+              </motion.div>
           </div>
-            <motion.div
-              className="App"
-              initial="hidden"
-              // animate="visible"
-              animate={replay ? "visible" : "hidden"}
-              variants={container}
-            >
-              <div className="home_title">
-                {placeholderText.map((item, index) => {
-                  return <AnimatedText className="text" {...item} key={index} />;
-                })}
-              </div>
-            </motion.div>
+        </AnimatePresence>
+        <motion.div
+          className="App"
+          initial="hidden"
+          // animate="visible"
+          animate={replay ? "visible" : "hidden"}
+          variants={container}
+        >
+          <div className="home_title">
+            {placeholderText.map((item, index) => {
+              return <AnimatedText {...item} key={index} />;
+            })}
+          </div>
+        </motion.div>
       </div>
   );
 }
