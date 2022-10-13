@@ -33,11 +33,11 @@ function WideImageScreen() {
 
   return(
       <div>
-        <AnimatePresence>
-            <div  className="background_image" style={background_image}>
+          <div  className="background_image" style={background_image}>
+            <AnimatePresence>
               <motion.div transition={{ duration: 1 }} initial={{ y: -300, opacity: 0 }} exit={{ y: 300, opacity: 0 }} animate={{ x, y, rotate, opacity: 1 }} onMouseOver={() => {
                 setX(60);
-                setY(-20);
+                setY(-0);
                 setRotate(-2);
                 }} onMouseOut={() => {
                   setX(5);
@@ -46,8 +46,8 @@ function WideImageScreen() {
                 }}>  
                 <img className="image" src={require("../../assets/images/01.jpg")} />
               </motion.div>
-          </div>
-        </AnimatePresence>
+            </AnimatePresence>
+        </div>
         <motion.div
           className="App"
           initial="hidden"
