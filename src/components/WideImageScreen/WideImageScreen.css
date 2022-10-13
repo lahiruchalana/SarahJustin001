@@ -16,11 +16,13 @@
 
 .home_title {
     text-align: left;
-    margin-left: 220px;
+    margin-left: 190px;
     margin-top: -600px;
     margin-bottom: 600px;
-    color: white;
     font-size: 74px;
-    font-weight: 900;
     z-index: 1;
+}
+
+.text {
+    font-weight: 800;
 }
