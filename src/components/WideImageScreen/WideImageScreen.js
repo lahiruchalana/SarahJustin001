@@ -51,7 +51,7 @@ function WideImageScreen() {
         <motion.div
           className="App"
           initial="hidden"
-          // animate="visible"
+          transition={{ duration: 9 }}
           animate={replay ? "visible" : "hidden"}
           variants={container}
         >
