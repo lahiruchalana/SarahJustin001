@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+#margin_top_100 {
+  margin-top: 100px;
+}
+
+#text_black {
+  color: rgb(0, 0, 0);
+}
+
+#text_white {
+  color: rgb(255, 255, 255);
+}
+
+#text_white_font_01 {
+  color: rgb(255, 255, 255);
+  font-size: 62px;
+}
