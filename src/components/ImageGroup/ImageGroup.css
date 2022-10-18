@@ -1,8 +1,8 @@
 #image_01 {
     height: 200px;
     max-width: fit-content;
-    margin-left: -700px;
-    margin-top: 0px;
+    margin-left: 200px;
+    margin-top: 10px;
     box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border-radius: 50px;
 }
@@ -10,8 +10,8 @@
 #image_02 {
     height: 300px;
     max-width: fit-content;
-    margin-left: -800px;
-    margin-top: -100px;
+    margin-left: -150px;
+    margin-top: -70px;
     box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border-radius: 50px;
 }
@@ -19,8 +19,8 @@
 #image_03 {
     height: 250px;
     max-width: fit-content;
-    margin-left: -300px;
-    margin-top: -400px;
+    margin-left: 400px;
+    margin-top: -300px;
     box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border-radius: 50px;
 }
@@ -28,8 +28,8 @@
 #image_04 {
     height: 300px;
     max-width: fit-content;
-    margin-left: -250px;
-    margin-top: -150px;
+    margin-left: 320px;
+    margin-top: -90px;
     box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border-radius: 50px;
 }
@@ -37,8 +37,8 @@
 #image_05 {
     height: 200px;
     max-width: fit-content;
-    margin-left: -950px;
-    margin-top: -250px;
+    margin-left: -250px;
+    margin-top: -350px;
     box-shadow: 0 5px 50px 0 rgba(165, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border-radius: 50px;
 }

@@ -10,7 +10,7 @@ function ImageGroup() {
         <div className="image_group">
             <AnimatePresence>
                 <motion.div  
-                    transition={{ duration: 3 }} 
+                    transition={{ duration: 5 }} 
                     initial="hidden" 
                     whileInView="visible" 
                     viewport={{ once: true }} 
@@ -36,27 +36,27 @@ function ImageGroup() {
                     <img id="image_02" src={require("../../assets/images/01.jpg")} />                    
                 </motion.div>
                 <motion.div  
-                    transition={{ duration: 3 }} 
+                    transition={{ duration: 4 }} 
                     initial="hidden" 
                     whileInView="visible" 
                     viewport={{ once: true }} 
-                    animate={{ x: 0, y: 0, opacity: 1, rotate: 2 }}
+                    animate={{ x: 0, y: 0, opacity: 1, rotate: 1 }}
                     variants={{
                         visible: { opacity: 1 },
-                        hidden: { y: -40, opacity: 0, rotate: 10 }
+                        hidden: { y: -40, opacity: 0, rotate: -10 }
                     }}
                     >
                     <img id="image_03" src={require("../../assets/images/01.jpg")} />                    
                 </motion.div>
                 <motion.div  
-                    transition={{ duration: 2 }} 
+                    transition={{ duration: 6}} 
                     initial="hidden" 
                     whileInView="visible" 
                     viewport={{ once: true }} 
                     animate={{ x: 0, y: 0, opacity: 1, rotate: -5 }}
                     variants={{
                         visible: { opacity: 1 },
-                        hidden: { y: -70, opacity: 0, rotate: 20 }
+                        hidden: { y: 100, opacity: 0, rotate: 20 }
                     }}
                     >
                     <img id="image_04" src={require("../../assets/images/01.jpg")} />                    
