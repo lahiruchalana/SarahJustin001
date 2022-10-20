@@ -17,9 +17,10 @@ function OurStory() {
 
     return(
         <div>
-            <h1>Our Story</h1>
 
-            <YouTube videoId="uQVqVpdhFhA" opts={opts} />
+            <h1>Dive in Our Story</h1>
+            {/* create a simple video for "our story" of them */}
+            <YouTube videoId="uQVqVpdhFhA" opts={opts} /> 
         </div>
     )
 }

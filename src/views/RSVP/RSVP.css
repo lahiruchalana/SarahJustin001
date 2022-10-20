@@ -2,3 +2,9 @@
     margin-top: -60px;
     height: 1200px;
 }
+
+.registration_form {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
