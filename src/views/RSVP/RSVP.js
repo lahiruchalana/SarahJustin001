@@ -67,7 +67,7 @@ function RSVP() {
                                 <Row>
                                     <Col>
                                         <motion.div  
-                                            transition={{ duration: 4.5 }} 
+                                            transition={{ duration: 3.5 }} 
                                             initial="hidden" 
                                             whileInView="visible" 
                                             viewport={{ once: true }} 
@@ -88,7 +88,7 @@ function RSVP() {
                                     </Col>
                                     <Col>
                                         <motion.div  
-                                            transition={{ duration: 4.5 }} 
+                                            transition={{ duration: 3.5 }} 
                                             initial="hidden" 
                                             whileInView="visible" 
                                             viewport={{ once: true }} 
@@ -110,7 +110,7 @@ function RSVP() {
                                 </Row>
 
                                 <motion.div  
-                                transition={{ duration: 4.5 }} 
+                                transition={{ duration: 3.8 }} 
                                 initial="hidden" 
                                 whileInView="visible" 
                                 viewport={{ once: true }} 
@@ -130,7 +130,7 @@ function RSVP() {
                                 </motion.div>
                                 
                                 <motion.div  
-                                        transition={{ duration: 4.5 }} 
+                                        transition={{ duration: 4.1 }} 
                                         initial="hidden" 
                                         whileInView="visible" 
                                         viewport={{ once: true }} 
@@ -170,7 +170,7 @@ function RSVP() {
                                 </motion.div>
 
                                 <motion.div  
-                                        transition={{ duration: 4.5 }} 
+                                        transition={{ duration: 5 }} 
                                         initial="hidden" 
                                         whileInView="visible" 
                                         viewport={{ once: true }} 
