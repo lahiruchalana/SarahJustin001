@@ -5,6 +5,7 @@ function Accomodations() {
     return(
         <div>
             <h1>Accomadations</h1>
+
         </div>
     )
 }

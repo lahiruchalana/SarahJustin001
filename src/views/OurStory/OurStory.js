@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import YouTube from 'react-youtube';
 import { motion, AnimatePresence } from "framer-motion";
@@ -9,6 +9,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function OurStory() {
+
+    const [x, setX] = useState(0);
+    const [y, setY] = useState(0);
+    const [rotate, setRotate] = useState(0);
+    const [replay, setReplay] = useState(true);
 
     const opts = {
         height: '390',
@@ -30,8 +35,10 @@ function OurStory() {
                 <br></br>
                 <br></br>
                 <br></br>
+                <br></br>
+                <br></br>
                 <AnimatePresence>
-                    <Row>
+                    <Row id="our_story_content">
                         <Col>
                             <motion.div  
                                 transition={{ duration: 3 }} 
@@ -44,7 +51,7 @@ function OurStory() {
                                     hidden: { y: 100, opacity: 0 }
                                 }}
                                 >
-                                    <h2 id="text_white">Her Story</h2>
+                                    <h3 id="title_our_story">We Says Our Story....</h3>
                             </motion.div>
                             <br></br>
                             <motion.div  
@@ -58,43 +65,41 @@ function OurStory() {
                                     hidden: { y: 100, opacity: 0 }
                                 }}
                                 >
-                                    <h5 id="text_white">His Story</h5>
+                                    <h6 id="text_white">"It was October, the Cardinals were in the playoffs, 
+                                    and St. Louisans had flocked to the hundreds of bars in St. Louis that
+                                     were showing the Cards game that night. Ed's friend Jeff suggested they 
+                                     go to a bar in the Tower Grove neighborhood to watch the game and meet 
+                                     up with another friend of his. Victoria had plans to watch the game there too, 
+                                     with some friends of hers. As it turns out, Ed's friends and Victoria's friends 
+                                     knew each other, and introduced them. Ed and Victoria seemed to hit it off immediately, 
+                                     in their own awkward way. After getting to know each other over a few hours, 
+                                     Ed was clumsy enough to spill a drink on Victoria, which is her favorite part of the story to tell. 
+                                     By some miracle, Victoria still liked Ed enough to continue hanging 
+                                    out with him and eventually even go on a date with him a few weeks later."</h6>
                             </motion.div>
                         </Col>
                         <Col>
-                            <motion.div  
-                                transition={{ duration: 3 }} 
-                                initial="hidden" 
-                                whileInView="visible" 
-                                viewport={{ once: true }} 
-                                animate={{ x: 0, y: 0, opacity: 1 }}
-                                variants={{
-                                    visible: { opacity: 1 },
-                                    hidden: { y: 100, opacity: 0 }
-                                }}
-                                >
-                                    <h2 id="text_white">His Story</h2>
-                            </motion.div>
                             <br></br>
-                            <motion.div  
-                                transition={{ duration: 3 }} 
-                                initial="hidden" 
-                                whileInView="visible" 
-                                viewport={{ once: true }} 
-                                animate={{ x: 0, y: 0, opacity: 1 }}
-                                variants={{
-                                    visible: { opacity: 1 },
-                                    hidden: { y: 100, opacity: 0 }
-                                }}
-                                >
-                                    <h5 id="text_white">His Story</h5>
-                            </motion.div>
+                            <AnimatePresence>
+                                <motion.div transition={{ duration: 1 }} initial={{ y: -300, opacity: 0 }} exit={{ y: 300, opacity: 0 }} animate={{ x, y, rotate, opacity: 1 }} onMouseOver={() => {
+                                    setX(10);
+                                    setY(-0);
+                                    setRotate(-2);
+                                    }} onMouseOut={() => {
+                                    setX(5);
+                                    setY(5);
+                                    setRotate(-0.5);
+                                    }}>  
+                                    <img className="image_our_story" src={require("../../assets/images/14.png")} />
+                                </motion.div>
+                            </AnimatePresence>
                         </Col>
                     </Row>
-
-                    <h1>Short and Sweet Story of Us</h1>
-                    {/* create a simple video for "our story" of them */}
-                    <YouTube videoId="uQVqVpdhFhA" opts={opts} /> 
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </AnimatePresence>
             </div>
         </div>
