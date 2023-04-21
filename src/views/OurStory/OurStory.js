@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import YouTube from 'react-youtube';
 import { motion, AnimatePresence } from "framer-motion";
 
 import './OurStory.css'
@@ -13,7 +12,6 @@ function OurStory() {
     const [x, setX] = useState(0);
     const [y, setY] = useState(0);
     const [rotate, setRotate] = useState(0);
-    const [replay, setReplay] = useState(true);
 
     const opts = {
         height: '390',
