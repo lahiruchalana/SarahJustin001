@@ -41,7 +41,7 @@ function OurStory() {
                     <Row id="our_story_content">
                         <Col>
                             <motion.div  
-                                transition={{ duration: 3 }} 
+                                transition={{ duration: 2 }} 
                                 initial="hidden" 
                                 whileInView="visible" 
                                 viewport={{ once: true }} 
@@ -51,11 +51,11 @@ function OurStory() {
                                     hidden: { y: 100, opacity: 0 }
                                 }}
                                 >
-                                    <h3 id="title_our_story">We Says Our Story....</h3>
+                                    <h3 id="title_our_story">We Say Our Story....</h3>
                             </motion.div>
                             <br></br>
                             <motion.div  
-                                transition={{ duration: 3 }} 
+                                transition={{ duration: 3.5 }} 
                                 initial="hidden" 
                                 whileInView="visible" 
                                 viewport={{ once: true }} 
@@ -81,14 +81,14 @@ function OurStory() {
                         <Col>
                             <br></br>
                             <AnimatePresence>
-                                <motion.div transition={{ duration: 1 }} initial={{ y: -300, opacity: 0 }} exit={{ y: 300, opacity: 0 }} animate={{ x, y, rotate, opacity: 1 }} onMouseOver={() => {
-                                    setX(10);
-                                    setY(-0);
+                                <motion.div transition={{ duration: 2 }} initial={{ y: -300, opacity: 0 }} exit={{ y: 500, opacity: 0 }} animate={{ x, y, rotate, opacity: 1 }} onMouseOver={() => {
+                                    setX(40);
+                                    setY(-10);
                                     setRotate(-2);
                                     }} onMouseOut={() => {
                                     setX(5);
-                                    setY(5);
-                                    setRotate(-0.5);
+                                    setY(0);
+                                    setRotate(-0.7);
                                     }}>  
                                     <img className="image_our_story" src={require("../../assets/images/14.png")} />
                                 </motion.div>
