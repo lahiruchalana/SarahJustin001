@@ -49,7 +49,7 @@ function Accomodations() {
                                     hidden: { y: 100, opacity: 0 }
                                 }}
                                 >
-                                    <h3 id="title_our_story">Accomadations</h3>
+                                    <h3 id="title_our_story">Dive In Locations</h3>
                             </motion.div>
                             <br></br>
                             <motion.div  
@@ -63,17 +63,7 @@ function Accomodations() {
                                     hidden: { y: 100, opacity: 0 }
                                 }}
                                 >
-                                    <h6 id="text_white">"It was October, the Cardinals were in the playoffs, 
-                                    and St. Louisans had flocked to the hundreds of bars in St. Louis that
-                                     were showing the Cards game that night. Ed's friend Jeff suggested they 
-                                     go to a bar in the Tower Grove neighborhood to watch the game and meet 
-                                     up with another friend of his. Victoria had plans to watch the game there too, 
-                                     with some friends of hers. As it turns out, Ed's friends and Victoria's friends 
-                                     knew each other, and introduced them. Ed and Victoria seemed to hit it off immediately, 
-                                     in their own awkward way. After getting to know each other over a few hours, 
-                                     Ed was clumsy enough to spill a drink on Victoria, which is her favorite part of the story to tell. 
-                                     By some miracle, Victoria still liked Ed enough to continue hanging 
-                                    out with him and eventually even go on a date with him a few weeks later."</h6>
+                                    <h6 id="text_white"></h6>
                             </motion.div>
                         </Col>
                         <Col>

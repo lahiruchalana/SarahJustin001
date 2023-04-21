@@ -28,7 +28,7 @@ function WideImageScreen() {
   };
 
   const background_image={
-      background: 'linear-gradient(to right, #320000, #f68989)'
+    background: 'linear-gradient(to right, #320000, #f68989)'
   }
 
   return(

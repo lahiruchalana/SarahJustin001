@@ -63,17 +63,22 @@ function OurStory() {
                                     hidden: { y: 100, opacity: 0 }
                                 }}
                                 >
-                                    <h6 id="text_white">"It was October, the Cardinals were in the playoffs, 
-                                    and St. Louisans had flocked to the hundreds of bars in St. Louis that
-                                     were showing the Cards game that night. Ed's friend Jeff suggested they 
-                                     go to a bar in the Tower Grove neighborhood to watch the game and meet 
-                                     up with another friend of his. Victoria had plans to watch the game there too, 
-                                     with some friends of hers. As it turns out, Ed's friends and Victoria's friends 
-                                     knew each other, and introduced them. Ed and Victoria seemed to hit it off immediately, 
-                                     in their own awkward way. After getting to know each other over a few hours, 
-                                     Ed was clumsy enough to spill a drink on Victoria, which is her favorite part of the story to tell. 
-                                     By some miracle, Victoria still liked Ed enough to continue hanging 
-                                    out with him and eventually even go on a date with him a few weeks later."</h6>
+                                    <h6 id="text_white">"Once upon a time in the city that never sleeps, Justin and Sarah were two young professionals chasing their dreams in New York. 
+                                        Justin was a startup founder, and Sarah was a digital marketer working at a top agency.
+
+                                        Their paths crossed at a networking event, where they struck up a conversation about their shared passion for entrepreneurship and innovation. 
+                                        They exchanged business cards and stayed in touch, meeting up for coffee and brainstorming sessions whenever they could.
+
+                                        It wasn't long before their professional relationship turned into something more. They discovered they had a lot more in common than just work, 
+                                        from their love of craft cocktails to their obsession with travel. They spent weekends exploring new neighborhoods and trying out the latest restaurants, 
+                                        and their love for each other grew stronger with every adventure.
+
+                                        After a few years of dating, Justin knew that Sarah was the one he wanted to spend the rest of his life with. 
+                                        He popped the question on a rooftop overlooking the city skyline, and Sarah said yes without hesitation.
+
+                                        Now, they're excited to start the next chapter of their lives together as husband and wife. Join us as we celebrate the love story of Justin and Sarah, 
+                                        two driven individuals who found success in their careers and each other."
+                                    </h6>
                             </motion.div>
                         </Col>
                         <Col>
