@@ -33,7 +33,7 @@ function Home() {
                         hidden: { y: 100, opacity: 0 }
                     }}
                     >
-                    <h3 id="text_white" className="date">Be Ready In May 24th, 2023</h3>
+                    <h3 id="text_white" className="date">May 24th, 2023</h3>
                 </motion.div>
                 <motion.div  
                     transition={{ duration: 3 }} 
@@ -46,7 +46,8 @@ function Home() {
                         hidden: { y: 100, opacity: 0 }
                     }}
                     >
-                    <h6 id="text_white" >@New York Hilton Midtown</h6>
+                    <h6 id="text_white" >Midtown Loft & Terrace</h6>
+                    <h6 id="text_white" >267 5th Ave, New York, NY 10016, United States</h6>
                     {/* <h4 id="text" >1335 Avenue Of The Americas, New York, NY 10019</h4> */}
                 </motion.div>
                 <br/>
